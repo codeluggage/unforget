@@ -1,11 +1,17 @@
 {
-    "name": "imba-base-template",
-    "scripts": {
-        "start": "imba -w server.imba",
-        "build": "imba build server.imba"
-    },
-    "dependencies": {
-        "express": "^4.17.1",
-        "imba": "^2.0.0-alpha.146"
-    }
+  "name": "unforget",
+  "scripts": {
+    "start": "imba -w server.imba",
+    "build": "imba build server.imba"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "imba": "^2.0.0-alpha.155"
+  },
+  "repository": "codeluggage/unforget",
+  "description": "The un-time tracker",
+  "version": "0.0.1",
+  "homepage": "git@github.com:codeluggage/unforget.git",
+  "author": "Matias Forbord",
+  "license": "MIT"
 }
