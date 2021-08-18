@@ -8,10 +8,12 @@
     "express": "^4.17.1",
     "imba": "^2.0.0-alpha.155"
   },
+  "devDependencies": {
+    "@types/express": "^4.17.13"
+  },
   "repository": "codeluggage/unforget",
   "description": "The un-time tracker",
   "version": "0.0.1",
-  "homepage": "git@github.com:codeluggage/unforget.git",
   "author": "Matias Forbord",
   "license": "MIT"
 }
