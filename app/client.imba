@@ -1,11 +1,14 @@
 global css html
 	ff:sans
 
+const previousResponse = {
+	time: new Date(),
+	actions: []
+}
+const question = `What did you do since {previousResponse.time.toLocaleTimeString()}?`
 tag app
 	<self>
 		<header>
-			<svg[w:200px h:auto] src='./logo.svg'>
-			<p> "Edit {<code> "app/client.imba"} and save to reload"
-			<a href="https://imba.io"> "Learn Imba"
+			<p> question
 
 imba.mount <app>
